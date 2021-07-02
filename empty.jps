@@ -1,0 +1,9 @@
+type: update                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+name: onAfterEnvReady
+
+permanent: true
+
+                                                                                                                                                                              
+onInstall:        
+ - loggerName: onAfterEnvReady
+   log: onAfterEnvReady READY!
