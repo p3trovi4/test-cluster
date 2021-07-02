@@ -7,3 +7,12 @@ permanent: true
 onInstall:        
  - loggerName: onAfterEnvReady
    log: onAfterEnvReady READY!
+   
+   
+onBeforeCloneAllNodes:
+ - loggerName: onBeforeCloneAllNodes
+   log: onBeforeCloneAllNodes READY!
+   
+onAfterCloneAllNodes:
+ - loggerName: onAfterCloneAllNodes
+   log: onAfterCloneAllNodes READY!
