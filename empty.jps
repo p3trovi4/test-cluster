@@ -10,9 +10,10 @@ onInstall:
    
    
 onBeforeCloneAllNodes:
- - loggerName: onBeforeCloneAllNodes
-   log: onBeforeCloneAllNodes READY!
+  - log: onBeforeCloneAllNodes READY! 
+    loggerName: onBeforeCloneAllNodes
+   
    
 onAfterCloneAllNodes:
- - loggerName: onAfterCloneAllNodes
-   log: onAfterCloneAllNodes READY!
+  - log: onAfterCloneAllNodes READY! 
+    loggerName: onAfterCloneAllNodes   
