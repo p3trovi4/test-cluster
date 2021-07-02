@@ -1,0 +1,9 @@
+type: update                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+name: onAfterCreateNodes
+
+permanent: true
+
+                                                                                                                                                                              
+onInstall:        
+ - loggerName: onAfterCreateNodes
+   log: onAfterCreateNodes READY!   
